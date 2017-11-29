@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	
+Use CSS position: absolute; followed by top: 0px; left 0px; in the style attribute of each DIV. Replace the pixel values with whatever you want.
+
+You can use z-index: x; to set the vertical "order" (which one is "on top"). Replace x with a number, higher numbers are on top of lower numbers.
+
+Here is how your new code would look:
+
+<div>
+  <div id="backdrop" style="z-index: 1; position: absolute; top: 0px; left: 0px;"><img alt="" src="images/websitenew.jpg"></div>
+  <div id="curtain" style="z-index: 2; position: absolute; top: 0px; left: 0px; background-color: red; background-position:100px 200px; height:250px; width:500px;">&nbsp;</div>
+</div>
+</body>
+</html>

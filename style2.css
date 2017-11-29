@@ -1,0 +1,33 @@
+
+
+#hoverDiv1 {
+
+z-index: 3; 
+position: absolute; 
+top: 240px; 
+left: 280px; 
+
+}
+
+
+#newDiv {
+	z-index: 2;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width: 3300px;
+	height: 2550px;
+	background-image:url(images/websitenew.jpg);
+	
+
+}
+
+#containerDiv {
+	postion:absolute;
+	margin-left: 12px;
+	margin-top: 0px;
+	z-index: 1;
+}
+
+
+
