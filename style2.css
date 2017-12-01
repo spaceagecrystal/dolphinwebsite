@@ -10,6 +10,17 @@ left: 280px;
 }
 
 
+
+#hoverDiv2 {
+
+z-index: 4; 
+position: absolute; 
+top: 600px; 
+left: 1100px; 
+
+}
+
+
 #newDiv {
 	z-index: 2;
 	position:absolute;
