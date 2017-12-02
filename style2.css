@@ -5,7 +5,7 @@
 z-index: 3; 
 position: absolute; 
 top: 240px; 
-left: 280px; 
+left: 280px; s
 
 }
 
@@ -16,10 +16,29 @@ left: 280px;
 z-index: 4; 
 position: absolute; 
 top: 600px; 
-left: 1100px; 
+left: 1100px; s
 
 }
 
+
+#hoverDiv3 {
+
+z-index: 5; 
+position: absolute; 
+top: 1200px; 
+left: 2200px; 
+
+}
+
+
+#hoverDiv4 {
+
+z-index: 6; 
+position: absolute; 
+top: 1850px; 
+left: 980px; 
+
+}
 
 #newDiv {
 	z-index: 2;
